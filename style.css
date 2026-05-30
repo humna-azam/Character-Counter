@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Beautiful gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1); /* Glass transparency */
+    backdrop-filter: blur(15px);         /* Blur effect for glass */
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    box-shadow: 0 0 10px #74ebd5; /* Glow effect when typing */
+}
+
+#charCount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #74ebd5;
+}
